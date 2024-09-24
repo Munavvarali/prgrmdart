@@ -6,5 +6,16 @@ void main(){
 
   print("Munavvar Ali");
   print(25);
-  print("Malappuram");
+  print("my pace is  Malappuram ");
+
+  print("my age is ${25}");
+
+
+
 }
+
+
+
+
+
+

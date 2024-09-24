@@ -8,5 +8,34 @@
   print("your mark is :$mark");
 
 
-  
+  String name1="manu";
+  print("my name is $name1");
+  String name2="kumar";
+  print("my name is $name2");
+  int age1=20;
+  print("my age is $age1");
+  double mark1=90.5;
+  print("your mark is $mark1");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  }
