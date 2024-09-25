@@ -1,7 +1,5 @@
 class Myclass{
 
-
-
   void add() {
     int a = 10;
     int b = 20;
@@ -21,11 +19,12 @@ class Myclass{
   }
   void div(){
     int a=10;
-    int b=25;
+    int b=25;  
     print("${a/b}");
   }
 }
 void main(){
-  Myclass obj=Myclass();
-  obj..add()..div()..mul()..sub();
+  Myclass obj=Myclass(); // Myclass ne call cheyyan vendi ullath ane
+  obj..add()..sub()..mul()..div(); //obj.add() obj.sub() inagne kodukunathin pagaram ane ee line
+                                        // ..  CASECADE oper
 }
