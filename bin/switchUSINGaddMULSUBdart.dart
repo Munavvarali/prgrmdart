@@ -7,8 +7,8 @@ void main() {
   int num2= int.parse(stdin.readLineSync()!);
   print("Enter You Choic: ");
   print("1.ADD \n  2.SUB \n 3.MUL \n 4.DIV");
-  //var choic=stdin.readLineSync();
-  int choic=int.parse(stdin.readLineSync()!);
+  //var choic=stdin.readLineSync()!;
+   int choic=int.parse(stdin.readLineSync()!);
 
   switch(choic){
     case 1:
